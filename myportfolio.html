@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md. Soriful Islam | MIS & Web Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Inter', 'Hind Siliguri', sans-serif;
+            scroll-behavior: smooth;
+            background-color: #0b0b0d;
+            color: #e5e7eb;
+        }
+        .accent-color { color: #00eeff; }
+        .bg-accent { background-color: #00eeff; }
+        .card-bg { background: #161619; border: 1px solid #27272a; }
+        .nav-link:hover { color: #00eeff; }
+        .gradient-text {
+            background: linear-gradient(90deg, #00eeff, #0077ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero-img-shadow {
+            box-shadow: 0 0 30px rgba(0, 238, 255, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-[#0b0b0d]/80 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold gradient-text">SORIFUL.</div>
+            <div class="hidden md:flex space-x-8">
+                <a href="#home" class="nav-link transition text-gray-300">Home</a>
+                <a href="#about" class="nav-link transition text-gray-300">About</a>
+                <a href="#services" class="nav-link transition text-gray-300">Services</a>
+                <a href="#contact" class="nav-link transition text-gray-300">Contact</a>
+            </div>
+            <div class="flex items-center space-x-5">
+                <a href="https://www.linkedin.com/in/md-soriful-islam-02a9a5252/" target="_blank" class="hidden md:block text-gray-400 hover:text-[#00eeff] transition text-xl"><i class="fab fa-linkedin"></i></a>
+                <a href="tel:+8801920365126" class="bg-accent text-black px-5 py-2 rounded-full font-semibold hover:opacity-80 transition">Hire Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center pt-20 px-6">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <div data-aos="fade-right">
+                <h4 class="accent-color font-medium mb-4 uppercase tracking-widest text-sm text-blue-400">Welcome to my world</h4>
+                <h1 class="text-5xl md:text-7xl font-bold mb-6">Hi, I'm <span class="gradient-text">Md. Soriful Islam</span></h1>
+                <p class="text-xl text-gray-400 mb-8 leading-relaxed">
+                    B.Sc in CSE | MIS Specialist | Web Developer & Designer. <br>
+                    ১৪ বছরেরও বেশি অভিজ্ঞতা সম্পন্ন একজন টেক এনথুজিয়াস্ট।
+                </p>
+                <div class="flex flex-wrap gap-4 items-center">
+                    <a href="#contact" class="bg-accent text-black px-8 py-4 rounded-lg font-bold hover:scale-105 transition shadow-[0_0_20px_rgba(0,238,255,0.3)]">Get in Touch</a>
+                    <div class="flex items-center space-x-4 px-4">
+                        <a href="https://www.linkedin.com/in/md-soriful-islam-02a9a5252/" target="_blank" class="text-3xl text-gray-400 hover:text-[#00eeff] transition"><i class="fab fa-linkedin"></i></a>
+                        <span class="text-gray-600">|</span>
+                        <a href="mailto:sorifmkrr@gmail.com" class="text-3xl text-gray-400 hover:text-[#00eeff] transition"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="relative flex justify-center" data-aos="zoom-in">
+                <div class="relative w-full max-w-md overflow-hidden rounded-2xl border-2 border-white/10 hero-img-shadow">
+                    <img src="soriful.jpeg" alt="Md. Soriful Islam" class="w-full h-auto object-cover grayscale-[20%] hover:grayscale-0 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#0b0b0d] via-transparent to-transparent opacity-40"></div>
+                </div>
+                <div class="absolute -bottom-6 -right-6 w-32 h-32 bg-accent opacity-10 blur-3xl rounded-full"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 px-6 bg-[#0e0e11]">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl font-bold mb-4">About Me</h2>
+                <div class="h-1 w-20 bg-accent mx-auto"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <div data-aos="fade-up">
+                    <h3 class="text-2xl font-bold mb-6 text-accent-color">My Journey</h3>
+                    <p class="text-gray-300 leading-relaxed mb-4">
+                        I’m Md. Soriful Islam — a tech enthusiast with a B.Sc. in Computer Science and Engineering. My passion for technology and digital solutions has led me to work in website development, design, content creation, and branding.
+                    </p>
+                    <p class="text-gray-300 leading-relaxed mb-6">
+                        Currently, I work as an <b>MIS (Production Reporter)</b> at a private company with 14+ years of professional experience.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 mt-8">
+                        <div class="card-bg p-4 rounded-lg border-l-4 border-accent">
+                            <h4 class="text-3xl font-bold accent-color">14+</h4>
+                            <p class="text-sm text-gray-400">Years Experience</p>
+                        </div>
+                        <div class="card-bg p-4 rounded-lg">
+                            <h4 class="text-3xl font-bold accent-color">B.Sc</h4>
+                            <p class="text-sm text-gray-400">In CSE</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="text-2xl font-bold mb-6 text-accent-color">My Goals (আমার লক্ষ্য)</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle mt-1 mr-3 accent-color"></i>
+                            <span>Build a complete personal website and brand</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle mt-1 mr-3 accent-color"></i>
+                            <span>Create tech guides, videos, and blogs in Bengali</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle mt-1 mr-3 accent-color"></i>
+                            <span>Deepen my expertise in MIS and web development</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle mt-1 mr-3 accent-color"></i>
+                            <span>Advance in digital marketing and content strategy</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-24 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h4 class="accent-color uppercase tracking-widest text-sm mb-2">What I Offer</h4>
+                <h2 class="text-4xl font-bold mb-4">আমাদের সেবাসমূহ</h2>
+                <p class="text-gray-400">আমরা ওয়েব ডিজাইন, ডিজিটাল মার্কেটিং এবং MIS রিপোর্টিং-এ দক্ষ সমাধান দিয়ে থাকি।</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="card-bg p-8 rounded-2xl hover:-translate-y-2 transition duration-300" data-aos="fade-up">
+                    <i class="fas fa-code text-4xl accent-color mb-6"></i>
+                    <h3 class="text-xl font-bold mb-4">Web Development</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">আধুনিক, মোবাইল-ফ্রেন্ডলি ওয়েবসাইট তৈরি করি যা দ্রুত লোড হয় ও ইউজার-ফ্রেন্ডলি হয়।</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="card-bg p-8 rounded-2xl hover:-translate-y-2 transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-chart-line text-4xl accent-color mb-6"></i>
+                    <h3 class="text-xl font-bold mb-4">MIS & Automation</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">প্রোডাকশন ডেটা বিশ্লেষণ ও রিপোর্টিং অটোমেশন করে বিজনেস ইনসাইট তৈরি করি।</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="card-bg p-8 rounded-2xl hover:-translate-y-2 transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-bullhorn text-4xl accent-color mb-6"></i>
+                    <h3 class="text-xl font-bold mb-4">Digital Marketing</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">SEO ও সোশ্যাল মিডিয়া দিয়ে অনলাইনে ব্র্যান্ডের প্রচার ও বিক্রি বাড়াই।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 px-6 bg-[#0e0e11]">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-16">
+                <div data-aos="fade-right">
+                    <h2 class="text-4xl font-bold mb-6 text-white">Contact Us</h2>
+                    <p class="text-gray-400 mb-8 text-lg">
+                        আপনার প্রজেক্ট আইডিয়া বা যেকোনো প্রশ্ন থাকলে সরাসরি যোগাযোগ করুন।
+                    </p>
+                    <div class="space-y-6">
+                        <!-- LinkedIn Added Here -->
+                        <a href="https://www.linkedin.com/in/md-soriful-islam-02a9a5252/" target="_blank" class="flex items-center space-x-4 p-4 card-bg rounded-xl hover:border-[#00eeff] transition group">
+                            <div class="w-12 h-12 flex items-center justify-center rounded-full bg-[#0077b5]/10 text-[#0077b5] group-hover:bg-[#0077b5] group-hover:text-white transition duration-300">
+                                <i class="fab fa-linkedin-in text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-gray-500 uppercase font-bold tracking-wider">LinkedIn Profile</p>
+                                <p class="font-semibold text-gray-200">Connect on LinkedIn</p>
+                            </div>
+                        </a>
+
+                        <!-- Email -->
+                        <a href="mailto:sorifmkrr@gmail.com" class="flex items-center space-x-4 p-4 card-bg rounded-xl hover:border-[#00eeff] transition group">
+                            <div class="w-12 h-12 flex items-center justify-center rounded-full bg-accent/10 text-accent group-hover:bg-accent group-hover:text-black transition duration-300">
+                                <i class="fas fa-envelope text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-gray-500 uppercase font-bold tracking-wider">Email Address</p>
+                                <p class="font-semibold text-gray-200">sorifmkrr@gmail.com</p>
+                            </div>
+                        </a>
+
+                        <!-- Phone -->
+                        <a href="tel:+8801920365126" class="flex items-center space-x-4 p-4 card-bg rounded-xl hover:border-[#00eeff] transition group">
+                            <div class="w-12 h-12 flex items-center justify-center rounded-full bg-accent/10 text-accent group-hover:bg-accent group-hover:text-black transition duration-300">
+                                <i class="fas fa-phone-alt text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-gray-500 uppercase font-bold tracking-wider">Call Me</p>
+                                <p class="font-semibold text-gray-200">+880 1920-365126</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card-bg p-8 rounded-2xl" data-aos="fade-left">
+                    <form action="#" class="space-y-4">
+                        <div>
+                            <label class="block mb-2 text-sm text-gray-400">নাম (Name)</label>
+                            <input type="text" class="w-full bg-[#0b0b0d] border border-white/10 p-4 rounded-lg focus:outline-none focus:border-[#00eeff] transition" placeholder="আপনার নাম লিখুন">
+                        </div>
+                        <div>
+                            <label class="block mb-2 text-sm text-gray-400">ইমেইল (Email)</label>
+                            <input type="email" class="w-full bg-[#0b0b0d] border border-white/10 p-4 rounded-lg focus:outline-none focus:border-[#00eeff] transition" placeholder="আপনার ইমেইল">
+                        </div>
+                        <div>
+                            <label class="block mb-2 text-sm text-gray-400">মেসেজ (Message)</label>
+                            <textarea rows="4" class="w-full bg-[#0b0b0d] border border-white/10 p-4 rounded-lg focus:outline-none focus:border-[#00eeff] transition" placeholder="কীভাবে আপনাকে সাহায্য করতে পারি?"></textarea>
+                        </div>
+                        <button class="w-full bg-accent text-black font-bold py-4 rounded-lg hover:opacity-90 hover:scale-[1.02] transition duration-300">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-white/10 text-center">
+        <div class="flex justify-center space-x-6 mb-6">
+            <a href="https://www.linkedin.com/in/md-soriful-islam-02a9a5252/" target="_blank" class="text-2xl text-gray-500 hover:text-[#00eeff] transition"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="text-2xl text-gray-500 hover:text-[#00eeff] transition"><i class="fab fa-facebook text-xl"></i></a>
+            <a href="mailto:sorifmkrr@gmail.com" class="text-2xl text-gray-500 hover:text-[#00eeff] transition"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p class="text-gray-500 text-sm">© 2024 Md. Soriful Islam. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000, once: true });
+    </script>
+</body>
+</html>
